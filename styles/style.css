@@ -33,6 +33,14 @@ article {
   text-align: center;
 }
 
-.fa-instagram {
+i {
   color: black;
+  padding: 0 10px;
+}
+
+i:hover {
+  color: #b93d04;
+}
+a {
+  text-decoration: none;
 }
