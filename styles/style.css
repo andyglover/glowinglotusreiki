@@ -17,6 +17,11 @@ h1 {
   padding: 0px 25px 0px 25px;
 }
 
+.tagline {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 img {
   height: 25%;
   width: 25%;
