@@ -14,12 +14,13 @@ h1 {
   background-color: #eddea4;
   border-radius: 25px;
   display: inline-block;
-  padding: 0px 25px 0px 25px;
+  padding: 10px 25px 15px 25px;
 }
 
 .tagline {
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0px 0px 30px 0px;
 }
 
 img {
