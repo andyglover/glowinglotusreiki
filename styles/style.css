@@ -15,7 +15,7 @@ p {
   background-color: #eddea4;
   border-radius: 25px;
   display: inline-block;
-  padding: 0 25px;
+  padding: 0 25px 25px 25px;
 }
 
 img {
@@ -32,4 +32,8 @@ img {
 }
 article {
   text-align: center;
+}
+
+.fa-instagram {
+  color: black;
 }
