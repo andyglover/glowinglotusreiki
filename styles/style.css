@@ -3,22 +3,33 @@ html {
 }
 body {
   height: 100%;
-  background-color: #b93d04;
+
+  background-color: #fff8e7; /* Soft Cream background */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-h1 {
-  color: #f9f7f3;
 }
 
 .pcontainer {
-  background-color: #eddea4;
   border-radius: 25px;
-  display: inline-block;
+  display: block;
   padding: 10px 25px 15px 25px;
+  margin: 16px;
+}
+.titlebox {
+  background-color: #ff6f61; /* Dusty Coral*/
+}
+.bookingbox {
+  background-color: #b2c8b8; /* Sage Green */
+}
+.socialbox {
+  background-color: #aec6cf; /* Sky Blue */
+}
+
+h2 {
+  color: white;
 }
 
 .tagline {
-  color: white;
+  /* color: white; */
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 0px 0px 30px 0px;
 }
