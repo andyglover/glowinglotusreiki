@@ -4,7 +4,8 @@ html {
 body {
 	min-height: 100%;
 
-	background-color: #fff8e7; /* Soft Cream background */
+	background-color: white;
+	/* background-color: #fff8e7; Soft Cream background */
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -21,11 +22,13 @@ body {
 	background-color: #b2c8b8; /* Sage Green */
 }
 .socialbox {
-	background-color: #aec6cf; /* Sky Blue */
+	background-color: lavender;
+	/* background-color: #aec6cf; Sky Blue */
 }
 
 h2 {
-	color: white;
+	/* color: white; */
+	color: black;
 }
 
 .tagline {
@@ -38,13 +41,13 @@ h2 {
 	font-family: "Fira Code", "Consolas", "Courier New", monospace;
 }
 
-img {
+/* img {
 	max-height: 150px;
 	max-width: 150px;
 	width: auto;
 	height: auto;
 	border-radius: 100px;
-}
+} */
 
 .container {
 	min-height: 100%;
@@ -68,6 +71,12 @@ i:hover {
 }
 a {
 	text-decoration: none;
+}
+
+#siteLogo {
+	max-width: 500px;
+	width: 100%;
+	height: auto;
 }
 
 /* New class for Instagram embeds */
