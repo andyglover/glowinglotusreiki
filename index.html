@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="refresh" content="5; url=https://www.purplesummerwellness.com/" />
 		<title>Glowing Lotus Reiki</title>
 		<link rel="stylesheet" href="styles/style.css" />
 		<script
@@ -51,6 +52,10 @@
 						<a class="socialLink" href="https://www.purplesummerwellness.com/">
 							purplesummerwellness.com
 						</a>
+					</p>
+					<p>
+						You will be redirected in <span id="redirectSeconds">5</span> seconds,
+						or click on the link above.
 					</p>
 
 					<!-- <h2>Always improving.</h2>
@@ -606,5 +611,30 @@
 				</div>
 			</article>
 		</div>
+		<script>
+			(function () {
+				var redirectUrl = "https://www.purplesummerwellness.com/";
+				var remainingSeconds = 5;
+				var countdownEl = document.getElementById("redirectSeconds");
+
+				if (!countdownEl) {
+					return;
+				}
+
+				var tick = function () {
+					remainingSeconds -= 1;
+					if (remainingSeconds >= 0) {
+						countdownEl.textContent = String(remainingSeconds);
+					}
+					if (remainingSeconds <= 0) {
+						window.location.href = redirectUrl;
+					} else {
+						window.setTimeout(tick, 1000);
+					}
+				};
+
+				window.setTimeout(tick, 1000);
+			})();
+		</script>
 	</body>
 </html>
